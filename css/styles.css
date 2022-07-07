@@ -1,0 +1,161 @@
+h1{
+     font-family: "Monstsrrat-black";
+     font-size: 3.5rem;
+     line-height: 1.5;
+}
+
+h2{
+    font-family: "Monstsrrat-black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Monstsrrat-black";
+}
+
+p{
+    color: #8f8f8f;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navugationbar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-button{
+    margin : 5% 3% 5% 0%;
+}
+
+/* image */
+.title-image{
+ width: 21%; 
+ transform: rotate(25deg);
+ position: absolute;
+ right: 25%;
+}
+
+ #features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+ }
+ 
+.features{
+    padding: 4.5%;
+    text-align: center;
+    /* position: relative;
+    display: inline-block; */
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricig section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    .col-lg-6 .title-image{
+        
+        position: relative    ;
+        transform: rotate(0deg);
+       width: 60%;
+        right: 30%;
+        left: -6%;
+        
+    }
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    text-align: center;
+    background-color: #ef8172;
+    padding: 50px;
+}
+
+.cta-text{
+    font-family: "Monstsrrat-black";
+    font-size: 2rem;
+    color: #fff;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
